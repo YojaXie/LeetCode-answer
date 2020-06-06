@@ -21,7 +21,7 @@
     <ClCompile Include="探索数组和字符串\搜索插入位置.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\旋转矩阵.cpp">
+    <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
