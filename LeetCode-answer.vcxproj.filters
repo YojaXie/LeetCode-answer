@@ -39,5 +39,8 @@
     <ClCompile Include="探索数组和字符串\最长回文子串.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\反转字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

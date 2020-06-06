@@ -66,11 +66,3 @@ public:
 		return ans;
 	}
 };
-
-int main()
-{
-	string test = " 1";
-	string ans;
-	ans = Solution().reverseWords(test);
-	cout << ans << endl;
-}
