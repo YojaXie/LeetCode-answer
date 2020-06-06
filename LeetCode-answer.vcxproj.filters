@@ -54,5 +54,8 @@
     <ClCompile Include="探索数组和字符串\最大连续1的个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\长度最小的子数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
