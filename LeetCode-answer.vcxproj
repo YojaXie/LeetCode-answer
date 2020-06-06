@@ -20,8 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="探索数组和字符串\合并区间.cpp" />
+    <ClCompile Include="探索数组和字符串\对角线遍历.cpp" />
     <ClCompile Include="探索数组和字符串\搜索插入位置.cpp" />
+    <ClCompile Include="探索数组和字符串\旋转矩阵.cpp" />
+    <ClCompile Include="探索数组和字符串\最长公共前缀.cpp" />
+    <ClCompile Include="探索数组和字符串\最长回文子串.cpp" />
     <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp" />
+    <ClCompile Include="探索数组和字符串\零矩阵.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
