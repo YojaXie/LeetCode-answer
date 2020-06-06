@@ -51,5 +51,8 @@
     <ClCompile Include="探索数组和字符串\移除元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\最大连续1的个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
