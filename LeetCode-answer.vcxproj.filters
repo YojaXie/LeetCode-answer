@@ -48,5 +48,8 @@
     <ClCompile Include="探索数组和字符串\两数之和II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\移除元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
