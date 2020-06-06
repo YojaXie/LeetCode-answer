@@ -32,7 +32,7 @@ public:
 		if (s.empty())
 			return;
 		vector<char>::iterator leftp = s.begin();
-		vector<char>::iterator rightp = s.end()--;
+		vector<char>::iterator rightp = s.end()-1;
 		for (; leftp < rightp; rightp--, leftp++)
 		{
 			char temp;
@@ -42,12 +42,3 @@ public:
 		}
 	}
 };
-
-
-int main()
-{
-	vector<char> vv;
-	vv.push_back('s');
-	vv.push_back('b');
-	cout << *(vv.end()--) << endl;
-}
