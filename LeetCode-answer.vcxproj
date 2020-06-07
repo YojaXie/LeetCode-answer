@@ -34,6 +34,7 @@
     <ClCompile Include="探索数组和字符串\最长回文子串.cpp" />
     <ClCompile Include="探索数组和字符串\杨辉三角.cpp" />
     <ClCompile Include="探索数组和字符串\杨辉三角II.cpp" />
+    <ClCompile Include="探索数组和字符串\移动零.cpp" />
     <ClCompile Include="探索数组和字符串\移除元素.cpp" />
     <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp" />
     <ClCompile Include="探索数组和字符串\长度最小的子数组.cpp" />
