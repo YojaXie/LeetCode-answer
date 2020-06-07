@@ -13,49 +13,55 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\探索数组和字符串">
+      <UniqueIdentifier>{647ef3b0-4be1-41c1-8432-0bdfc7980f86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="探索数组和字符串\合并区间.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\搜索插入位置.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\对角线遍历.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\零矩阵.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\旋转矩阵.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\最长公共前缀.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="探索数组和字符串\杨辉三角.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
     <ClCompile Include="探索数组和字符串\最长回文子串.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\对角线遍历.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
     <ClCompile Include="探索数组和字符串\反转字符串.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\数组拆分I.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="探索数组和字符串\合并区间.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
     <ClCompile Include="探索数组和字符串\两数之和II.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\零矩阵.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\数组拆分I.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\搜索插入位置.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\旋转矩阵.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
     <ClCompile Include="探索数组和字符串\移除元素.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\最大连续1的个数.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
     <ClCompile Include="探索数组和字符串\长度最小的子数组.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\最大连续1的个数.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\最长公共前缀.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
