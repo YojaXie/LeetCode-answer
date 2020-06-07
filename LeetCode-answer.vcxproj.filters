@@ -63,5 +63,8 @@
     <ClCompile Include="探索数组和字符串\最长公共前缀.cpp">
       <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\杨辉三角II.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
