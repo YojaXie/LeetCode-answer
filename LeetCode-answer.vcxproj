@@ -37,6 +37,7 @@
     <ClCompile Include="探索数组和字符串\移动零.cpp" />
     <ClCompile Include="探索数组和字符串\移除元素.cpp" />
     <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp" />
+    <ClCompile Include="探索数组和字符串\设计链表.cpp" />
     <ClCompile Include="探索数组和字符串\长度最小的子数组.cpp" />
     <ClCompile Include="探索数组和字符串\零矩阵.cpp" />
   </ItemGroup>
