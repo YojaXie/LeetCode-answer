@@ -72,5 +72,8 @@
     <ClCompile Include="探索数组和字符串\寻找旋转排序数组中的最小值.cpp">
       <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\删除排序数组中的重复项.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
