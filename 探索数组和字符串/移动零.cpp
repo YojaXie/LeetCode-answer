@@ -30,10 +30,10 @@ public:
             if (nums[fastp] != 0)
             {
                 nums[slowp] = nums[fastp];
+                if (fastp > slowp)
+                    nums[fastp] = 0;
                 slowp++;
             }
         }
-        for (; slowp < nums.size(); slowp++)
-            nums[slowp] = 0;
     }
 };
