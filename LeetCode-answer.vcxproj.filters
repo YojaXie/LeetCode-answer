@@ -84,5 +84,8 @@
     <ClCompile Include="探索数组和字符串\环形链表.cpp">
       <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\环形链表 II.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
