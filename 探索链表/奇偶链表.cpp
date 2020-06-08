@@ -48,6 +48,25 @@ class Solution
 public:
     ListNode* oddEvenList(ListNode* head) 
     {
-
+        if (!head)
+            return NULL;
+        int i = 2;
+        ListNode* oddP = head;
+        ListNode* evenP = head->next;
+        ListNode* iterate = head;
+        while (iterate->next)
+        {
+            if (i % 2 == 0)
+                iterate = iterate->next;
+            else
+            {
+                oddP->next = iterate->next;
+                iterate->next = iterate->next->next;
+                oddP = oddP->next;
+            }
+            i++;
+        }
+        oddP->next = evenP;
+        return head;
     }
 };
