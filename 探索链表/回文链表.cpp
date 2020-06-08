@@ -37,13 +37,13 @@ public:
 		int LenList = 1;
 		ListNode* iterateP = head;
 		ListNode* temp;
-		while (iterateP->next)
+		while (iterateP->next) //获取链表的大小
 		{
 			LenList++;
 			iterateP = iterateP->next;
 		}
 		iterateP = head;
-		for (int i = 0; i < (LenList+1)/2 - 1; i++)
+		for (int i = 0; i < (LenList+1)/2 - 1; i++)   //对前一半链表逆序
 		{
 			if (i == (LenList + 1) / 2 - 2 && LenList % 2 == 1)
 				break;
@@ -56,7 +56,7 @@ public:
 			iterateP = iterateP->next->next;
 		else
 			iterateP = iterateP->next;
-		for (int i = 0; i < LenList / 2; i++)
+		for (int i = 0; i < LenList / 2; i++)   //前后两部分链表比较val
 		{
 			if (iterateP->val != head->val)
 				return false;
