@@ -16,6 +16,9 @@
     <Filter Include="源文件\探索数组和字符串">
       <UniqueIdentifier>{647ef3b0-4be1-41c1-8432-0bdfc7980f86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\探索链表">
+      <UniqueIdentifier>{8c829b5f-251c-4838-9e6d-8c8920258abb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="探索数组和字符串\杨辉三角.cpp">
@@ -78,26 +81,29 @@
     <ClCompile Include="探索数组和字符串\移动零.cpp">
       <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\设计链表.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
+    <ClCompile Include="探索链表\反转链表.cpp">
+      <Filter>源文件\探索链表</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\环形链表.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
+    <ClCompile Include="探索链表\环形链表.cpp">
+      <Filter>源文件\探索链表</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\环形链表II.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
+    <ClCompile Include="探索链表\环形链表II.cpp">
+      <Filter>源文件\探索链表</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\相交链表.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
+    <ClCompile Include="探索链表\奇偶链表.cpp">
+      <Filter>源文件\探索链表</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\删除链表的倒数第N个节点.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
+    <ClCompile Include="探索链表\删除链表的倒数第N个节点.cpp">
+      <Filter>源文件\探索链表</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\反转链表.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
+    <ClCompile Include="探索链表\设计链表.cpp">
+      <Filter>源文件\探索链表</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\移除链表元素.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
+    <ClCompile Include="探索链表\相交链表.cpp">
+      <Filter>源文件\探索链表</Filter>
+    </ClCompile>
+    <ClCompile Include="探索链表\移除链表元素.cpp">
+      <Filter>源文件\探索链表</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

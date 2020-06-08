@@ -21,10 +21,8 @@
   <ItemGroup>
     <ClCompile Include="探索数组和字符串\两数之和II.cpp" />
     <ClCompile Include="探索数组和字符串\删除排序数组中的重复项.cpp" />
-    <ClCompile Include="探索数组和字符串\删除链表的倒数第N个节点.cpp" />
     <ClCompile Include="探索数组和字符串\反转字符串.cpp" />
     <ClCompile Include="探索数组和字符串\反转字符串中的单词III.cpp" />
-    <ClCompile Include="探索数组和字符串\反转链表.cpp" />
     <ClCompile Include="探索数组和字符串\合并区间.cpp" />
     <ClCompile Include="探索数组和字符串\对角线遍历.cpp" />
     <ClCompile Include="探索数组和字符串\寻找旋转排序数组中的最小值.cpp" />
@@ -36,16 +34,19 @@
     <ClCompile Include="探索数组和字符串\最长回文子串.cpp" />
     <ClCompile Include="探索数组和字符串\杨辉三角.cpp" />
     <ClCompile Include="探索数组和字符串\杨辉三角II.cpp" />
-    <ClCompile Include="探索数组和字符串\环形链表.cpp" />
-    <ClCompile Include="探索数组和字符串\环形链表II.cpp" />
-    <ClCompile Include="探索数组和字符串\相交链表.cpp" />
     <ClCompile Include="探索数组和字符串\移动零.cpp" />
     <ClCompile Include="探索数组和字符串\移除元素.cpp" />
-    <ClCompile Include="探索数组和字符串\移除链表元素.cpp" />
     <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp" />
-    <ClCompile Include="探索数组和字符串\设计链表.cpp" />
     <ClCompile Include="探索数组和字符串\长度最小的子数组.cpp" />
     <ClCompile Include="探索数组和字符串\零矩阵.cpp" />
+    <ClCompile Include="探索链表\删除链表的倒数第N个节点.cpp" />
+    <ClCompile Include="探索链表\反转链表.cpp" />
+    <ClCompile Include="探索链表\奇偶链表.cpp" />
+    <ClCompile Include="探索链表\环形链表.cpp" />
+    <ClCompile Include="探索链表\环形链表II.cpp" />
+    <ClCompile Include="探索链表\相交链表.cpp" />
+    <ClCompile Include="探索链表\移除链表元素.cpp" />
+    <ClCompile Include="探索链表\设计链表.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
