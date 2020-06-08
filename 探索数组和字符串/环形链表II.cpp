@@ -53,15 +53,20 @@ public:
 		ListNode* slowP = head;
 		ListNode* fastP = head;
 		ListNode* firstpos = head;
-		while (fastP != NULL && fastP->next != NULL)
+		while (1)
 		{
+			if (fastP == NULL || fastP->next == NULL)
+				return;
 			slowP = slowP->next;
 			fastP = fastP->next->next;
-			if (firstpos == slowP)
-				return firstpos;
 			if (slowP == fastP)
-				firstpos = firstpos->next;
+				break;
 		}
-		return NULL;
+		while (slowP != firstpos)
+		{
+			slowP = slowP->next;
+			firstpos = firstpos->next;
+		}
+		return firstpos;
 	}
 };
