@@ -54,7 +54,7 @@ public:
     {
         if (index < 0)
             return -1;
-        MyLinkedList* temp = this;
+        MyLinkedList* temp = this->next;
         int res;
         for (int i = 0; i < index + 1; i++)
         {
@@ -70,9 +70,8 @@ public:
     void addAtHead(int val) 
     {
         MyLinkedList* newnode = new MyLinkedList();
-        newnode->val = this->val;
+        newnode->val = val;
         newnode->next = this->next;
-        this->val = val;
         this->next = newnode;
     }
 
@@ -84,22 +83,20 @@ public:
         newnode->val = val;
         newnode->next = NULL;
         while (temp->next != NULL)
-        {
             temp = temp->next;
-        }
         temp->next = newnode;
     }
 
     /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
     void addAtIndex(int index, int val) 
     {
-        if (index < 0)
+        if (index <= 0)
         {
             this->addAtHead(val);
             return;
         }
-        MyLinkedList* temp1 = this;
-        MyLinkedList* temp2 = this;
+        MyLinkedList* temp1 = this->next;
+        MyLinkedList* temp2 = this->next;
         for (int i = 0; i < index; i++) 
         {
             if (!temp2)
@@ -133,7 +130,7 @@ public:
         if (index < 0)
             return;
         MyLinkedList* temp1 = this;
-        MyLinkedList* temp2 = this;
+        MyLinkedList* temp2 = this->next;
         for (int i = 0; i < index; i++)
         {
             if (!temp2)
@@ -145,6 +142,11 @@ public:
             {
                 temp1 = temp2;        //获取index-1结点的地址
                 temp2 = temp2->next;  //获取index结点的地址
+				if (!temp2)
+				{
+					if (i + 1 == index)
+						return;
+				}
             }
         }
         temp1->next = temp2->next;
@@ -152,15 +154,3 @@ public:
     }
 };
 
-
-int main()
-{
-    MyLinkedList* linkedList = new MyLinkedList();
-    linkedList->addAtHead(1);
-    linkedList->addAtTail(3);
-    linkedList->addAtIndex(1, 2);   //链表变为1-> 2-> 3
-    linkedList->get(1);            //返回2
-    linkedList->deleteAtIndex(1);  //现在链表是1-> 3
-    linkedList->get(1);            //返回3
-    return 0;
-}
