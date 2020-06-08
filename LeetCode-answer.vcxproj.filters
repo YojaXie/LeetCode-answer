@@ -105,5 +105,8 @@
     <ClCompile Include="探索链表\移除链表元素.cpp">
       <Filter>源文件\探索链表</Filter>
     </ClCompile>
+    <ClCompile Include="探索链表\回文链表.cpp">
+      <Filter>源文件\探索链表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
