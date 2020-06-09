@@ -42,25 +42,32 @@ public:
 		{
 			if (l2right->val >= iterateP->val)
 			{
-				temp = l2right;
-				l2right = l2right->next;
-				if (!l2right)
-				{
-					temp->next = iterateP->next;
-					iterateP->next = l2left;
-					return head;
-				}
 				if (!iterateP->next)
 				{
 					iterateP->next = l2left;
 					return head;
 				}
-				if (l2right->val > iterateP->next->val)
+				if (l2right->val >= iterateP->next->val)
 				{
-					temp->next = iterateP->next;
-					iterateP->next = l2left;
-					iterateP = temp->next;
-					l2left = l2right;
+					iterateP = iterateP->next;
+				}
+				else
+				{
+					temp = l2right;
+					l2right = l2right->next;
+					if (!l2right)
+					{
+						temp->next = iterateP->next;
+						iterateP->next = l2left;
+						return head;
+					}
+					if (l2right->val >= iterateP->next->val)
+					{
+						temp->next = iterateP->next;
+						iterateP->next = l2left;
+						iterateP = temp->next;
+						l2left = l2right;
+					}
 				}
 			}
 			else
@@ -73,7 +80,7 @@ public:
 					head = l2left;
 					return head;
 				}
-				if (l2right->val > iterateP->val)
+				if (l2right->val >= iterateP->val)
 				{
 					temp->next = iterateP;
 					head = l2left;
@@ -81,5 +88,6 @@ public:
 				}
 			}
 		}
+		return NULL;
 	}
 };
