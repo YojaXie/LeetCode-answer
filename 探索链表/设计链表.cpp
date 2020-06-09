@@ -39,7 +39,8 @@ class MyLinkedList
 {
 public:
     int val;
-    MyLinkedList* next;
+	MyLinkedList* next;
+	MyLinkedList* prev;
 
 public:
     /** Initialize your data structure here. */
@@ -47,6 +48,7 @@ public:
     {
         val = 0;
         next = NULL;
+		prev = NULL;
     }
 
     /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
@@ -72,6 +74,9 @@ public:
         MyLinkedList* newnode = new MyLinkedList();
         newnode->val = val;
         newnode->next = this->next;
+		newnode->prev = NULL;
+		if(newnode->next)
+			newnode->next->prev = newnode;
         this->next = newnode;
     }
 
@@ -81,9 +86,10 @@ public:
         MyLinkedList* temp = this;
         MyLinkedList* newnode = new MyLinkedList();
         newnode->val = val;
-        newnode->next = NULL;
+		newnode->next = NULL;
         while (temp->next != NULL)
             temp = temp->next;
+		newnode->prev = temp;
         temp->next = newnode;
     }
 
@@ -120,8 +126,10 @@ public:
         }
         MyLinkedList* newnode = new MyLinkedList();
         newnode->val = val;
-        newnode->next = temp2;
+		newnode->next = temp2;
+		newnode->prev = temp1;
         temp1->next = newnode;
+		newnode->next->prev = newnode;
     }
 
     /** Delete the index-th node in the linked list, if the index is valid. */
@@ -149,6 +157,8 @@ public:
 				}
             }
         }
+		if (temp2->next)
+			temp2->next->prev = temp1;
         temp1->next = temp2->next;
         delete temp2;
     }
