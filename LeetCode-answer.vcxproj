@@ -44,6 +44,7 @@
     <ClCompile Include="探索链表\反转链表.cpp" />
     <ClCompile Include="探索链表\合并两个有序链表.cpp" />
     <ClCompile Include="探索链表\回文链表.cpp" />
+    <ClCompile Include="探索链表\复制带随机指针的链表.cpp" />
     <ClCompile Include="探索链表\奇偶链表.cpp" />
     <ClCompile Include="探索链表\扁平化多级双向链表.cpp" />
     <ClCompile Include="探索链表\环形链表.cpp" />
