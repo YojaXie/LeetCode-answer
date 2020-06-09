@@ -39,10 +39,13 @@
     <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp" />
     <ClCompile Include="探索数组和字符串\长度最小的子数组.cpp" />
     <ClCompile Include="探索数组和字符串\零矩阵.cpp" />
+    <ClCompile Include="探索链表\两数相加.cpp" />
     <ClCompile Include="探索链表\删除链表的倒数第N个节点.cpp" />
     <ClCompile Include="探索链表\反转链表.cpp" />
+    <ClCompile Include="探索链表\合并两个有序链表.cpp" />
     <ClCompile Include="探索链表\回文链表.cpp" />
     <ClCompile Include="探索链表\奇偶链表.cpp" />
+    <ClCompile Include="探索链表\扁平化多级双向链表.cpp" />
     <ClCompile Include="探索链表\环形链表.cpp" />
     <ClCompile Include="探索链表\环形链表II.cpp" />
     <ClCompile Include="探索链表\相交链表.cpp" />

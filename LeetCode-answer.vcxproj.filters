@@ -108,5 +108,14 @@
     <ClCompile Include="探索链表\回文链表.cpp">
       <Filter>源文件\探索链表</Filter>
     </ClCompile>
+    <ClCompile Include="探索链表\合并两个有序链表.cpp">
+      <Filter>源文件\探索链表</Filter>
+    </ClCompile>
+    <ClCompile Include="探索链表\两数相加.cpp">
+      <Filter>源文件\探索链表</Filter>
+    </ClCompile>
+    <ClCompile Include="探索链表\扁平化多级双向链表.cpp">
+      <Filter>源文件\探索链表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
