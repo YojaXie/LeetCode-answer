@@ -56,6 +56,10 @@ public:
 		int step = 0;
 		string root = "0000";
 		queueLock.push(root);
+		for (vector<string>::iterator it = deadends.begin(); it < deadends.end(); it++)
+			used.insert(*it);
+		if (used.count(root))
+			return -1;
 		used.insert(root);
 		while (!queueLock.empty())
 		{
@@ -66,44 +70,31 @@ public:
 				string password = queueLock.front();
 				if (password == target)
 					return step - 1;
-				bool indeadends = false;
 				queueLock.pop();
-				for (vector<string>::iterator it = deadends.begin(); it < deadends.end(); it++)
+				for (int j = 0; j < password.size(); j++)
 				{
-					if (*it == password)
+					string newpassword = password;
+					if (newpassword[j] == '9')
+						newpassword[j] = '0';
+					else
+						newpassword[j] = newpassword[j] + 1;
+					if (used.count(newpassword) == 0)
 					{
-						indeadends = true;
-						break;
+						queueLock.push(newpassword);
+						used.insert(newpassword);
+					}
+
+					newpassword = password;
+					if (newpassword[j] == '0')
+						newpassword[j] = '9';
+					else
+						newpassword[j] = newpassword[j] - 1;
+					if (used.count(newpassword) == 0)
+					{
+						queueLock.push(newpassword);
+						used.insert(newpassword);
 					}
 				}
-				if (!indeadends)
-				{
-					for (int j = 0; j < password.size(); j++)
-					{
-						string newpassword = password;
-						if (newpassword[j] == '9')
-							newpassword[j] = '0';
-						else
-							newpassword[j] = newpassword[j] + 1;
-						if (used.count(newpassword) == 0)
-						{
-							queueLock.push(newpassword);
-							used.insert(newpassword);
-						}
-
-						newpassword = password;
-						if (newpassword[j] == '0')
-							newpassword[j] = '9';
-						else
-							newpassword[j] = newpassword[j] - 1;
-						if (used.count(newpassword) == 0)
-						{
-							queueLock.push(newpassword);
-							used.insert(newpassword);
-						}
-					}
-				}
-
 			}
 		}
 		return -1;
