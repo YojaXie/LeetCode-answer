@@ -132,5 +132,8 @@
     <ClCompile Include="队列和栈\岛屿数量.cpp">
       <Filter>源文件\队列和栈</Filter>
     </ClCompile>
+    <ClCompile Include="队列和栈\打开转盘锁.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
