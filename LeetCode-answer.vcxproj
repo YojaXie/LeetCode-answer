@@ -53,6 +53,7 @@
     <ClCompile Include="探索链表\相交链表.cpp" />
     <ClCompile Include="探索链表\移除链表元素.cpp" />
     <ClCompile Include="探索链表\设计链表.cpp" />
+    <ClCompile Include="队列和栈\岛屿数量.cpp" />
     <ClCompile Include="队列和栈\设计循环队列.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
