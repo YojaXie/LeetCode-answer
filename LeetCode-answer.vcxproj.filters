@@ -19,6 +19,9 @@
     <Filter Include="源文件\探索链表">
       <UniqueIdentifier>{8c829b5f-251c-4838-9e6d-8c8920258abb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\队列和栈">
+      <UniqueIdentifier>{95634025-7515-49d5-a6e2-a5f9a7442778}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="探索数组和字符串\杨辉三角.cpp">
@@ -122,6 +125,9 @@
     </ClCompile>
     <ClCompile Include="探索链表\旋转链表.cpp">
       <Filter>源文件\探索链表</Filter>
+    </ClCompile>
+    <ClCompile Include="队列和栈\设计循环队列.cpp">
+      <Filter>源文件\队列和栈</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
