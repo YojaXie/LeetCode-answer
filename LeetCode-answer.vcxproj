@@ -57,6 +57,7 @@
     <ClCompile Include="队列和栈\岛屿数量.cpp" />
     <ClCompile Include="队列和栈\打开转盘锁.cpp" />
     <ClCompile Include="队列和栈\最小栈.cpp" />
+    <ClCompile Include="队列和栈\有效的括号.cpp" />
     <ClCompile Include="队列和栈\设计循环队列.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

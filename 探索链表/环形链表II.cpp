@@ -56,7 +56,7 @@ public:
 		while (1)
 		{
 			if (fastP == NULL || fastP->next == NULL)
-				return;
+				return NULL;
 			slowP = slowP->next;
 			fastP = fastP->next->next;
 			if (slowP == fastP)
