@@ -4,13 +4,10 @@
 提示：气温 列表长度的范围是 [1, 30000]。每个气温的值的均为华氏度，都是在 [30, 100] 范围内的整数。
 */
 
-
-
 #include<iostream>
 #include<vector>
 #include<stack>
 #include<algorithm>
-#include<list>
 
 using namespace std;
 
@@ -41,19 +38,3 @@ public:
 		return res;
 	}
 };
-
-int main()
-{
-	vector<int> T;
-	T.push_back(73);
-	T.push_back(74);
-	T.push_back(75);
-	T.push_back(71);
-	T.push_back(69);
-	T.push_back(72);
-	T.push_back(76);
-	T.push_back(73);
-	vector<int> res = Solution().dailyTemperatures(T);
-
-	return 0;
-}
