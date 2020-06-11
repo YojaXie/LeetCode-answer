@@ -22,20 +22,21 @@ public:
 		vector<int> res;
 		res.resize(T.size());
 		stack<int> buffer;
-		vector<int> buffer_out;
-		for (int i : T) buffer.push(i);
-		for (int i = T.size()-1; i >=0; i--)
+		buffer.push(T.size()-1);
+		for (int i = int(T.size()) - 2; i >= 0; i--)
 		{
-			for (int j = buffer_out.size()-1; j >= 0; j--)
+			while (T[i] >= T[buffer.top()])
 			{
-				if (buffer.top() < buffer_out[j])
+				buffer.pop();
+				if (buffer.empty())
 				{
-					res[i] = buffer_out.size() - j;
+					res[i] = 0;
 					break;
 				}
 			}
-			buffer_out.push_back(buffer.top());
-			buffer.pop();
+			if(!buffer.empty())
+				res[i] = buffer.top() - i;
+			buffer.push(i);
 		}
 		return res;
 	}
