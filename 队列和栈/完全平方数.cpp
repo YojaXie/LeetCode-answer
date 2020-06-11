@@ -31,32 +31,27 @@ public:
         vector<int> beijianshu;
         for (int i = nummax; i >= 1; i--)
             beijianshu.push_back(i * i);
-        queue<int> queuenum;
-        set<int> used;
+        set<int> queuenum;
         int step = 0;
         int root = n;
-        used.insert(n);
-        queuenum.push(root);
+        queuenum.insert(root);
         while (!queuenum.empty())
         {
             step = step + 1;
-            int size = queuenum.size();
-            for (int i = 0; i < size; i++)
-            {
-                int RemainNum = queuenum.front();
-                queuenum.pop();
-                for (int i = 0; i <nummax; i++)
-                {
-                    int SaveNum = RemainNum - beijianshu[i];
-                    if (SaveNum == 0)
-                        return step;
-                    if (SaveNum > 0 && used.count(SaveNum) == 0)
-                    {
-                        queuenum.push(SaveNum);
-                        used.insert(SaveNum);
-                    }
-                }
-            }
+			set<int> nextqueue;
+			for (int RemainNum : queuenum)
+			{
+				for (int i = 0; i < nummax; i++)
+				{
+					int SaveNum = RemainNum - beijianshu[i];
+					if (SaveNum == 0)
+						return step;
+					if (SaveNum > 0)
+						nextqueue.insert(SaveNum);
+				}
+			}
+			queuenum = nextqueue;
+			nextqueue.clear();
         }
         return -1;
     }
