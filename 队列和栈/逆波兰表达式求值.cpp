@@ -42,19 +42,18 @@ class Solution
 public:
     int evalRPN(vector<string>& tokens)
     {
-        int temp;
         stack<int> buffer;
         for (string str : tokens)
         {
             if (str != "+" && str != "-" && str != "*" && str != "/")
             {
-                if (str[0] == '-')
-                {
-                    temp = -int(str[1] - '0');
-                }
-                else
-                    temp = str[0] - '0';
-                buffer.push(temp);
+				int temp = 0;
+				for (int i = str.size() - 1; i >= 0; i--)
+				{
+					if (str[i] != '-') temp = temp + int(str[i] - '0') * pow(10, (str.size() - 1 - i));
+					else temp = -temp;
+				}
+				buffer.push(temp);
             }
             else
             {
@@ -71,17 +70,3 @@ public:
         return buffer.top();
     }
 };
-
-int main()
-{
-    vector<string> tokens;
-    tokens.push_back("10");
-    tokens.push_back("6");
-    tokens.push_back("9");
-    tokens.push_back("3");
-    tokens.push_back("+");
-    tokens.push_back("-11");
-    tokens.push_back("*");
-    tokens.push_back("");
-    tokens.push_back("+");
-}

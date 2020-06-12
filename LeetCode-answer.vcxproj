@@ -60,6 +60,7 @@
     <ClCompile Include="队列和栈\有效的括号.cpp" />
     <ClCompile Include="队列和栈\每日温度.cpp" />
     <ClCompile Include="队列和栈\设计循环队列.cpp" />
+    <ClCompile Include="队列和栈\逆波兰表达式求值.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
