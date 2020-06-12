@@ -22,6 +22,9 @@
     <Filter Include="源文件\队列和栈">
       <UniqueIdentifier>{95634025-7515-49d5-a6e2-a5f9a7442778}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\每日一题">
+      <UniqueIdentifier>{91a5de50-e2df-4833-9db6-ba1c984751ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="探索数组和字符串\杨辉三角.cpp">
@@ -149,6 +152,9 @@
     </ClCompile>
     <ClCompile Include="队列和栈\逆波兰表达式求值.cpp">
       <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
+    <ClCompile Include="每日一题\三数之和.cpp">
+      <Filter>源文件\每日一题</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
