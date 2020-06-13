@@ -156,5 +156,8 @@
     <ClCompile Include="每日一题\三数之和.cpp">
       <Filter>源文件\每日一题</Filter>
     </ClCompile>
+    <ClCompile Include="每日一题\爬楼梯.cpp">
+      <Filter>源文件\每日一题</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
