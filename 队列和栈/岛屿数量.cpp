@@ -32,7 +32,8 @@
 
 using namespace std;
 
-class Solution 
+// 用的BFS (广度优先遍历）
+class Solution1
 {
 public:
 	int numIslands(vector<vector<char>>& grid) 
@@ -91,5 +92,39 @@ public:
 			}
 		}
 		return res;
+	}
+};
+
+//用的DFS（深度优先遍历
+class Solution2
+{
+public:
+	int numIslands(vector<vector<char>>& grid) 
+	{
+		int res = 0;
+		for (int i = 0; i < grid.size(); i++)
+		{
+			for (int j = 0; j < grid[0].size(); j++)
+			{
+				if (grid[i][j] == '1')
+				{
+					res = res + 1;
+					DFS(i, j, grid);
+				}
+			}
+		}
+		return res;
+	}
+	void DFS(int i, int j, vector<vector<char>>& grid)
+	{
+		if (grid[i][j] == '1')
+		{
+			grid[i][j] = 0;
+			if (i - 1 >= 0)  DFS(i - 1, j, grid);
+			if (i + 1 < grid.size())  DFS(i + 1, j, grid);
+			if (j - 1 >= 0)  DFS(i, j - 1, grid);
+			if (j + 1 < grid[0].size())  DFS(i, j + 1, grid);
+		}
+		return;
 	}
 };
