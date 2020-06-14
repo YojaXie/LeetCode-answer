@@ -159,5 +159,8 @@
     <ClCompile Include="每日一题\爬楼梯.cpp">
       <Filter>源文件\每日一题</Filter>
     </ClCompile>
+    <ClCompile Include="队列和栈\克隆图.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
