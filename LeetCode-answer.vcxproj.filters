@@ -165,5 +165,8 @@
     <ClCompile Include="队列和栈\目标和.cpp">
       <Filter>源文件\队列和栈</Filter>
     </ClCompile>
+    <ClCompile Include="队列和栈\二叉树的中序遍历.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

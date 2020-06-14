@@ -55,6 +55,7 @@
     <ClCompile Include="探索链表\设计链表.cpp" />
     <ClCompile Include="每日一题\三数之和.cpp" />
     <ClCompile Include="每日一题\爬楼梯.cpp" />
+    <ClCompile Include="队列和栈\二叉树的中序遍历.cpp" />
     <ClCompile Include="队列和栈\克隆图.cpp" />
     <ClCompile Include="队列和栈\完全平方数.cpp" />
     <ClCompile Include="队列和栈\岛屿数量.cpp" />
