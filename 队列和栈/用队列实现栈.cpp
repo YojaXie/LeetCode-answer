@@ -18,31 +18,69 @@ empty() -- ·µ»ØÕ»ÊÇ·ñÎª¿Õ
 
 using namespace std;
 
-class MyStack {
+class MyStack 
+{
+private:
+	deque<int> data;
+	deque<int> datareverse;
+
 public:
 	/** Initialize your data structure here. */
-	MyStack() {
+	MyStack() 
+	{
 
 	}
 
 	/** Push element x onto stack. */
-	void push(int x) {
-
+	void push(int x) 
+	{
+		data.push_back(x);
 	}
 
 	/** Removes the element on top of the stack and returns that element. */
-	int pop() {
-
+	int pop() 
+	{
+		int datasize = data.size();
+		for(int i=0;i<datasize -1;i++)
+		{
+			datareverse.push_back(data.front());
+			data.pop_front();
+		}
+		int res = data.front();
+		data.pop_front();
+		while (!datareverse.empty())
+		{
+			data.push_back(datareverse.front());
+			datareverse.pop_front();
+		}
+		return res;
 	}
 
 	/** Get the top element. */
-	int top() {
-
+	int top() 
+	{
+		int datasize = data.size();
+		for (int i = 0; i < datasize - 1; i++)
+		{
+			datareverse.push_back(data.front());
+			data.pop_front();
+		}
+		int res = data.front();
+		datareverse.push_back(data.front());
+		data.pop_front();
+		while (!datareverse.empty())
+		{
+			data.push_back(datareverse.front());
+			datareverse.pop_front();
+		}
+		return res;
 	}
 
 	/** Returns whether the stack is empty. */
-	bool empty() {
-
+	bool empty() 
+	{
+		if (data.empty()) return true;
+		else return false;
 	}
 };
 
@@ -54,3 +92,14 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
+int main()
+{
+	MyStack* obj = new MyStack();
+	obj->push(1);
+	obj->push(2);
+	obj->push(3);
+	//int param_2 = obj->pop();
+	int param_3 = obj->top();
+	bool param_4 = obj->empty();
+	return 0;
+}

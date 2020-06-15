@@ -104,19 +104,3 @@ public:
         return;
     }
 };
-
-int main()
-{
-    Node* node = new Node(1);
-    Node* temp = node;
-    node->neighbors.push_back(new Node(2));
-    node->neighbors.push_back(new Node(3));
-    temp = node->neighbors[0];
-    temp->neighbors.push_back(node);
-    temp->neighbors.push_back(node->neighbors[1]);
-    temp = temp->neighbors[1];
-    temp->neighbors.push_back(node);
-    temp->neighbors.push_back(node->neighbors[0]);
-    Solution().cloneGraph(node);
-    return 0;
-}
