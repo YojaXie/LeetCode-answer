@@ -92,14 +92,3 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-int main()
-{
-	MyStack* obj = new MyStack();
-	obj->push(1);
-	obj->push(2);
-	obj->push(3);
-	//int param_2 = obj->pop();
-	int param_3 = obj->top();
-	bool param_4 = obj->empty();
-	return 0;
-}
