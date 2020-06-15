@@ -71,6 +71,7 @@
     <ClCompile Include="队列和栈\目标和.cpp" />
     <ClCompile Include="队列和栈\设计循环队列.cpp" />
     <ClCompile Include="队列和栈\逆波兰表达式求值.cpp" />
+    <ClCompile Include="队列和栈\钥匙和房间.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
