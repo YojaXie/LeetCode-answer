@@ -26,6 +26,7 @@
     <ClCompile Include="探索数组和字符串\合并区间.cpp" />
     <ClCompile Include="探索数组和字符串\对角线遍历.cpp" />
     <ClCompile Include="探索数组和字符串\寻找旋转排序数组中的最小值.cpp" />
+    <ClCompile Include="探索数组和字符串\寻找旋转排序数组中的最小值II.cpp" />
     <ClCompile Include="探索数组和字符串\搜索插入位置.cpp" />
     <ClCompile Include="探索数组和字符串\数组拆分I.cpp" />
     <ClCompile Include="探索数组和字符串\旋转矩阵.cpp" />
