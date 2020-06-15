@@ -57,6 +57,7 @@
     <ClCompile Include="每日一题\爬楼梯.cpp" />
     <ClCompile Include="队列和栈\二叉树的中序遍历.cpp" />
     <ClCompile Include="队列和栈\克隆图.cpp" />
+    <ClCompile Include="队列和栈\图像渲染.cpp" />
     <ClCompile Include="队列和栈\字符串解码.cpp" />
     <ClCompile Include="队列和栈\完全平方数.cpp" />
     <ClCompile Include="队列和栈\岛屿数量.cpp" />
