@@ -189,5 +189,8 @@
     <ClCompile Include="探索数组和字符串\寻找旋转排序数组中的最小值II.cpp">
       <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
+    <ClCompile Include="探索数组和字符串\两个数组的交集.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

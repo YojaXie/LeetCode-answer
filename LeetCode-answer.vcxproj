@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="探索数组和字符串\两个数组的交集.cpp" />
     <ClCompile Include="探索数组和字符串\两数之和II.cpp" />
     <ClCompile Include="探索数组和字符串\删除排序数组中的重复项.cpp" />
     <ClCompile Include="探索数组和字符串\反转字符串.cpp" />
