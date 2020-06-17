@@ -44,7 +44,7 @@ struct TreeNode
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-class Codec 
+class Codec
 {
 public:
 
@@ -52,17 +52,19 @@ public:
 	string serialize(TreeNode* root) 
 	{
 		string res;
+		res.reserve(100000);
+		if (!root) return res;
 		queue<TreeNode*> buffer;
 		buffer.push(root);
 		while (!buffer.empty())
 		{
-			if (buffer == NULL)
+			if (!buffer.front())
 			{
-				res.push_back(NULL);
+				res += "NULL";
 				buffer.pop();
 				continue;
 			}
-			else res.push_back(buffer.front()->val);
+			res = res + DECint2HEXstring(buffer.front()->val);
 			buffer.push(buffer.front()->left);
 			buffer.push(buffer.front()->right);
 			buffer.pop();
@@ -73,16 +75,54 @@ public:
 	// Decodes your encoded data to tree.
 	TreeNode* deserialize(string data) 
 	{
-		if (data == NULL) return NULL;
+		if (data.empty()) return NULL;
 		TreeNode* res;
 		queue<TreeNode*> buffer;
-		TreeNode* root = new TreeNode(data[0]);
+		vector<int> DECint = HEXstring2DECint(data);
+		TreeNode* root = new TreeNode(DECint[0]);
 		buffer.push(root);
 		res = root;
+		int offset = 1;
+		int temp;
 		while (!buffer.empty())
 		{
-
+			TreeNode* node = buffer.front();
+			if (node)
+			{
+				// 节点的左子节点
+				temp = DECint[offset];
+				offset++;
+				if (temp == 1280070990) node->left = NULL;
+				else node->left= new TreeNode(temp);
+				buffer.push(node->left);
+				// 节点的右子节点
+				temp = DECint[offset];
+				offset++;
+				if (temp == 1280070990) node->right = NULL;
+				else node->right = new TreeNode(temp);
+				buffer.push(node->right);
+			}
+			buffer.pop();
 		}
+		return res;
+	}
+	string DECint2HEXstring(int DECnum)
+	{
+		string HEXstring;
+		char* p = reinterpret_cast<char*>(&DECnum);
+		for (int i = 0; i < 4; i++)
+			HEXstring.push_back(p[i]);
+		return HEXstring;
+	}
+	vector<int> HEXstring2DECint(string HEXstring)
+	{
+		vector<int> DECint;
+		DECint.reserve(25000);
+		int* p = reinterpret_cast<int*>(&HEXstring[0]);
+		uint16_t len= HEXstring.size() / 4;
+		for (int i = 0; i < len; i++)
+			DECint[i] = p[i];
+		return DECint;
 	}
 };
 

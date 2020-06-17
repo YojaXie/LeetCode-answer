@@ -77,10 +77,3 @@ public:
 		return res;
 	}
 };
-
-int main()
-{
-	string a = "3[a]12[bc]";
-	string b = Solution().decodeString(a);
-	return 0;
-}
