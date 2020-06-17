@@ -198,5 +198,11 @@
     <ClCompile Include="每日一题\[297]二叉树的序列化与反序列化.cpp">
       <Filter>源文件\每日一题</Filter>
     </ClCompile>
+    <ClCompile Include="每日一题\[0297]二叉树的序列化与反序列化.cpp">
+      <Filter>源文件\每日一题</Filter>
+    </ClCompile>
+    <ClCompile Include="每日一题\[1014]最佳观光组合.cpp">
+      <Filter>源文件\每日一题</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
