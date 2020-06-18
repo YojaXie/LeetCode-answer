@@ -195,9 +195,6 @@
     <ClCompile Include="探索数组和字符串\两个数组的交集II.cpp">
       <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
-    <ClCompile Include="每日一题\[297]二叉树的序列化与反序列化.cpp">
-      <Filter>源文件\每日一题</Filter>
-    </ClCompile>
     <ClCompile Include="每日一题\[0297]二叉树的序列化与反序列化.cpp">
       <Filter>源文件\每日一题</Filter>
     </ClCompile>
