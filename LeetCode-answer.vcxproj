@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="二分查找\[0033]搜索旋转排序数组.cpp" />
+    <ClCompile Include="二分查找\[0034]在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="二分查找\[0068]x的平方根.cpp" />
     <ClCompile Include="二分查找\[0162]寻找峰值.cpp" />
     <ClCompile Include="二分查找\[0278]第一个错误的版本.cpp" />

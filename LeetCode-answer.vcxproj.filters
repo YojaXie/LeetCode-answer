@@ -225,5 +225,8 @@
     <ClCompile Include="二分查找\[0162]寻找峰值.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找\[0034]在排序数组中查找元素的第一个和最后一个位置.cpp">
+      <Filter>源文件\二分查找</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
