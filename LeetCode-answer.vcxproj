@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="二分查找\[0033]搜索旋转排序数组.cpp" />
     <ClCompile Include="二分查找\[0068]x的平方根.cpp" />
     <ClCompile Include="二分查找\[0374]猜数字大小.cpp" />
     <ClCompile Include="二分查找\[0704]二分查找.cpp" />

@@ -216,5 +216,8 @@
     <ClCompile Include="二分查找\[0374]猜数字大小.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找\[0033]搜索旋转排序数组.cpp">
+      <Filter>源文件\二分查找</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
