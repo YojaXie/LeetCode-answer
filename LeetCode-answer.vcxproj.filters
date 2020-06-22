@@ -210,5 +210,8 @@
     <ClCompile Include="二分查找\[0704]二分查找.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找\[0068]x的平方根.cpp">
+      <Filter>源文件\二分查找</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
