@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="二分查找\[0704]二分查找.cpp" />
     <ClCompile Include="探索数组和字符串\两个数组的交集.cpp" />
     <ClCompile Include="探索数组和字符串\两个数组的交集II.cpp" />
     <ClCompile Include="探索数组和字符串\两数之和II.cpp" />
