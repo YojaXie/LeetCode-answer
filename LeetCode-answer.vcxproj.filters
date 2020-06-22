@@ -222,5 +222,8 @@
     <ClCompile Include="二分查找\[0278]第一个错误的版本.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找\[0162]寻找峰值.cpp">
+      <Filter>源文件\二分查找</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
