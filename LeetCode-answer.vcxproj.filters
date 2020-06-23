@@ -240,5 +240,8 @@
     <ClCompile Include="二分查找\[0367]有效的完全平方数.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找\[0744]寻找比目标字母大的最小字母.cpp">
+      <Filter>源文件\二分查找</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
