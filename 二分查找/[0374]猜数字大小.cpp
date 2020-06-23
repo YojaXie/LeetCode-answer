@@ -27,6 +27,7 @@ using namespace std;
  *               otherwise return 0
  * int guess(int num);
  */
+int guess(int num);
 
 class Solution 
 {
