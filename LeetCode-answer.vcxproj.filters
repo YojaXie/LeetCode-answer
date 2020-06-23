@@ -231,5 +231,8 @@
     <ClCompile Include="二分查找\[0658]找到K个最接近的元素.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找\[0004]寻找两个正序数组的中位数.cpp">
+      <Filter>源文件\二分查找</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
