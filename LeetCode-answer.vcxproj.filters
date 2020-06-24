@@ -249,5 +249,8 @@
     <ClCompile Include="二分查找\[0287]寻找重复数.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找\[0410]分割数组的最大值.cpp">
+      <Filter>源文件\二分查找</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

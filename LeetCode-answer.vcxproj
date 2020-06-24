@@ -29,6 +29,7 @@
     <ClCompile Include="二分查找\[0287]寻找重复数.cpp" />
     <ClCompile Include="二分查找\[0367]有效的完全平方数.cpp" />
     <ClCompile Include="二分查找\[0374]猜数字大小.cpp" />
+    <ClCompile Include="二分查找\[0410]分割数组的最大值.cpp" />
     <ClCompile Include="二分查找\[0658]找到K个最接近的元素.cpp" />
     <ClCompile Include="二分查找\[0704]二分查找.cpp" />
     <ClCompile Include="二分查找\[0744]寻找比目标字母大的最小字母.cpp" />
