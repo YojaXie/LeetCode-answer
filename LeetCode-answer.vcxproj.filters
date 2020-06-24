@@ -189,9 +189,6 @@
     <ClCompile Include="队列和栈\钥匙和房间.cpp">
       <Filter>源文件\队列和栈</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\寻找旋转排序数组中的最小值II.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
     <ClCompile Include="探索数组和字符串\两个数组的交集.cpp">
       <Filter>源文件\探索数组和字符串</Filter>
     </ClCompile>
@@ -245,6 +242,12 @@
     </ClCompile>
     <ClCompile Include="每日一题\[0067]二进制求和.cpp">
       <Filter>源文件\每日一题</Filter>
+    </ClCompile>
+    <ClCompile Include="探索数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp">
+      <Filter>源文件\探索数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="二分查找\[0287]寻找重复数.cpp">
+      <Filter>源文件\二分查找</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
