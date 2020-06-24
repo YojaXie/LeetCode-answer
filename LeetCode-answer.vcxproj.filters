@@ -249,8 +249,5 @@
     <ClCompile Include="二分查找\[0287]寻找重复数.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
-    <ClCompile Include="二分查找\[0719]找出第k小的距离对.cpp">
-      <Filter>源文件\二分查找</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

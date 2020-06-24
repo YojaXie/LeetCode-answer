@@ -31,7 +31,6 @@
     <ClCompile Include="二分查找\[0374]猜数字大小.cpp" />
     <ClCompile Include="二分查找\[0658]找到K个最接近的元素.cpp" />
     <ClCompile Include="二分查找\[0704]二分查找.cpp" />
-    <ClCompile Include="二分查找\[0719]找出第k小的距离对.cpp" />
     <ClCompile Include="二分查找\[0744]寻找比目标字母大的最小字母.cpp" />
     <ClCompile Include="探索数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp" />
     <ClCompile Include="探索数组和字符串\两个数组的交集.cpp" />
