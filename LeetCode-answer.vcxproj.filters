@@ -28,6 +28,9 @@
     <Filter Include="源文件\二分查找">
       <UniqueIdentifier>{e5429994-8f0c-4af7-9d89-faeecc4efc99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\二叉树">
+      <UniqueIdentifier>{69c30345-69f1-4cbf-81dc-f8b1d476a0ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="探索数组和字符串\杨辉三角.cpp">
@@ -251,6 +254,9 @@
     </ClCompile>
     <ClCompile Include="二分查找\[0410]分割数组的最大值.cpp">
       <Filter>源文件\二分查找</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp">
+      <Filter>源文件\二叉树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
