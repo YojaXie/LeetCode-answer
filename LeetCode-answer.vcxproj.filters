@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\探索数组和字符串">
-      <UniqueIdentifier>{647ef3b0-4be1-41c1-8432-0bdfc7980f86}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\探索链表">
-      <UniqueIdentifier>{8c829b5f-251c-4838-9e6d-8c8920258abb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\队列和栈">
       <UniqueIdentifier>{95634025-7515-49d5-a6e2-a5f9a7442778}</UniqueIdentifier>
     </Filter>
@@ -31,110 +25,14 @@
     <Filter Include="源文件\二叉树">
       <UniqueIdentifier>{69c30345-69f1-4cbf-81dc-f8b1d476a0ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\链表">
+      <UniqueIdentifier>{8c829b5f-251c-4838-9e6d-8c8920258abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数组和字符串">
+      <UniqueIdentifier>{647ef3b0-4be1-41c1-8432-0bdfc7980f86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="探索数组和字符串\杨辉三角.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\最长回文子串.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\对角线遍历.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\翻转字符串里的单词.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\反转字符串.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\合并区间.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\两数之和II.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\零矩阵.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\数组拆分I.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\搜索插入位置.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\旋转矩阵.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\移除元素.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\长度最小的子数组.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\最大连续1的个数.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\最长公共前缀.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\杨辉三角II.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\反转字符串中的单词III.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\寻找旋转排序数组中的最小值.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\删除排序数组中的重复项.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\移动零.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\反转链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\环形链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\环形链表II.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\奇偶链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\删除链表的倒数第N个节点.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\设计链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\相交链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\移除链表元素.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\回文链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\合并两个有序链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\两数相加.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\扁平化多级双向链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\复制带随机指针的链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
-    <ClCompile Include="探索链表\旋转链表.cpp">
-      <Filter>源文件\探索链表</Filter>
-    </ClCompile>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
       <Filter>源文件\队列和栈</Filter>
     </ClCompile>
@@ -192,12 +90,6 @@
     <ClCompile Include="队列和栈\钥匙和房间.cpp">
       <Filter>源文件\队列和栈</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\两个数组的交集.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
-    <ClCompile Include="探索数组和字符串\两个数组的交集II.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
     <ClCompile Include="每日一题\[0297]二叉树的序列化与反序列化.cpp">
       <Filter>源文件\每日一题</Filter>
     </ClCompile>
@@ -246,9 +138,6 @@
     <ClCompile Include="每日一题\[0067]二进制求和.cpp">
       <Filter>源文件\每日一题</Filter>
     </ClCompile>
-    <ClCompile Include="探索数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp">
-      <Filter>源文件\探索数组和字符串</Filter>
-    </ClCompile>
     <ClCompile Include="二分查找\[0287]寻找重复数.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
@@ -257,6 +146,117 @@
     </ClCompile>
     <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp">
       <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\扁平化多级双向链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\反转链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\复制带随机指针的链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\合并两个有序链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\环形链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\环形链表II.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\回文链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\两数相加.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\奇偶链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\删除链表的倒数第N个节点.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\设计链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\相交链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\旋转链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表\移除链表元素.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\对角线遍历.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\翻转字符串里的单词.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\反转字符串.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\反转字符串中的单词III.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\合并区间.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\两个数组的交集.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\两个数组的交集II.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\两数之和II.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\零矩阵.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\删除排序数组中的重复项.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\数组拆分I.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\搜索插入位置.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\旋转矩阵.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\寻找旋转排序数组中的最小值.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\杨辉三角.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\杨辉三角II.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\移除元素.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\移动零.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\长度最小的子数组.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\最大连续1的个数.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\最长公共前缀.cpp">
+      <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="数组和字符串\最长回文子串.cpp">
+      <Filter>源文件\数组和字符串</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
