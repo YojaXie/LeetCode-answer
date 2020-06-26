@@ -144,9 +144,6 @@
     <ClCompile Include="二分查找\[0410]分割数组的最大值.cpp">
       <Filter>源文件\二分查找</Filter>
     </ClCompile>
-    <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp">
-      <Filter>源文件\二叉树</Filter>
-    </ClCompile>
     <ClCompile Include="链表\扁平化多级双向链表.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
@@ -257,6 +254,12 @@
     </ClCompile>
     <ClCompile Include="数组和字符串\最长回文子串.cpp">
       <Filter>源文件\数组和字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\[0145]二叉树的后序遍历.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp">
+      <Filter>源文件\二叉树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
