@@ -43,6 +43,7 @@
     <ClCompile Include="二叉树\[0117]填充每个节点的下一个右侧节点指针II.cpp" />
     <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp" />
     <ClCompile Include="二叉树\[0145]二叉树的后序遍历.cpp" />
+    <ClCompile Include="二叉树\[0236]二叉树的最近公共祖先.cpp" />
     <ClCompile Include="数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集II.cpp" />
