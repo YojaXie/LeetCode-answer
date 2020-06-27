@@ -39,6 +39,7 @@
     <ClCompile Include="二叉树\[0105]从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="二叉树\[0106]从中序与后序遍历序列构造二叉树.cpp" />
     <ClCompile Include="二叉树\[0112]路径总和.cpp" />
+    <ClCompile Include="二叉树\[0116]填充每个节点的下一个右侧节点指针.cpp" />
     <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp" />
     <ClCompile Include="二叉树\[0145]二叉树的后序遍历.cpp" />
     <ClCompile Include="数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp" />
