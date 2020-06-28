@@ -58,22 +58,96 @@ class Solution
 public:
 	TreeNode* deleteNode(TreeNode* root, int key) 
 	{
-		TreeNode* TargetNode = searchBST(root, key);
+		TreeNode* FatherTargetNode = NULL;
+		TreeNode* TargetNode = searchBST(root, key, FatherTargetNode);
+		bool IsLeft = true;
 		if (!TargetNode) return root;
-		if (!TargetNode->left && !TargetNode->right);
+		if (TargetNode == root)
+		{
+			if (!TargetNode->left && !TargetNode->right) return NULL;
+			else if (TargetNode->left && !TargetNode->right) root = TargetNode->left;
+			else if (!TargetNode->left && TargetNode->right) root = TargetNode->right;
+			else
+			{
+				TreeNode* SwapNode = TargetNode->right;
+				TreeNode* temp = TargetNode;
+				while (SwapNode->left)
+				{
+					temp = SwapNode;
+					SwapNode = SwapNode->left;
+				}
+				if (temp == TargetNode)
+				{
+					SwapNode->left = TargetNode->left;
+					root = SwapNode;
+				}
+				else
+				{
+					temp->left = SwapNode->right;
+					SwapNode->left = TargetNode->left;
+					SwapNode->right = TargetNode->right;
+					root = SwapNode;
+				}
+			}
+			return root;
+		}
+
+		if (FatherTargetNode->left == TargetNode) IsLeft = true;
+		else IsLeft = false;
+		if (!TargetNode->left && !TargetNode->right)
+		{
+			if (IsLeft) FatherTargetNode->left = NULL;
+			else FatherTargetNode->right = NULL;
+		}
+		else if (TargetNode->left && !TargetNode->right)
+		{
+			if (IsLeft) FatherTargetNode->left = TargetNode->left;
+			else FatherTargetNode->right = TargetNode->left;
+		}
+		else if (!TargetNode->left && TargetNode->right)
+		{
+			if (IsLeft) FatherTargetNode->left = TargetNode->right;
+			else FatherTargetNode->right = TargetNode->right;
+		}
+		else
+		{
+			TreeNode* SwapNode = TargetNode->right;
+			TreeNode* temp = TargetNode;
+			while (SwapNode->left)
+			{
+				temp = SwapNode;
+				SwapNode = SwapNode->left;
+			}
+			if (temp == TargetNode)
+			{
+				SwapNode->left = TargetNode->left;
+				if (IsLeft) FatherTargetNode->left = SwapNode;
+				else FatherTargetNode->right = SwapNode;
+			}
+			else
+			{
+				temp->left = SwapNode->right;
+				SwapNode->left = TargetNode->left;
+				SwapNode->right = TargetNode->right;
+				if (IsLeft) FatherTargetNode->left = SwapNode;
+				else FatherTargetNode->right = SwapNode;
+			}
+		}
+		return root;
 	}
-	TreeNode* searchBST(TreeNode* root, int val)
+	TreeNode* searchBST(TreeNode* root, int val, TreeNode*& lastroot)
 	{
 		if (!root) return NULL;
-		if (root->left)
+		if (root->val == val) return root;
+		else if (root->val > val)
 		{
-			if (root->left->val == val) return root;
+			lastroot = root;
+			return searchBST(root->left, val, lastroot);
 		}
-		if (root->right)
+		else
 		{
-			if (root->right->val == val) return root;
+			lastroot = root;
+			return searchBST(root->right, val, lastroot);
 		}
-		if (root->val > val) return searchBST(root->left, val);
-		else return searchBST(root->right, val);
 	}
 };
