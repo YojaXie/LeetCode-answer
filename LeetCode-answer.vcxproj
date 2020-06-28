@@ -34,6 +34,7 @@
     <ClCompile Include="二分查找\[0704]二分查找.cpp" />
     <ClCompile Include="二分查找\[0744]寻找比目标字母大的最小字母.cpp" />
     <ClCompile Include="二叉搜索树\[0098]验证二叉搜索树.cpp" />
+    <ClCompile Include="二叉搜索树\[0173]二叉搜索树迭代器.cpp" />
     <ClCompile Include="二叉树\[0101]对称二叉树.cpp" />
     <ClCompile Include="二叉树\[0102[二叉树的层序遍历.cpp" />
     <ClCompile Include="二叉树\[0104]二叉树的最大深度.cpp" />
