@@ -31,6 +31,9 @@
     <Filter Include="源文件\数组和字符串">
       <UniqueIdentifier>{647ef3b0-4be1-41c1-8432-0bdfc7980f86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\二叉搜索树">
+      <UniqueIdentifier>{5709ce61-5bb6-4698-b82a-71c4488bce2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -287,6 +290,9 @@
     </ClCompile>
     <ClCompile Include="二叉树\[0236]二叉树的最近公共祖先.cpp">
       <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉搜索树\[0098]验证二叉搜索树.cpp">
+      <Filter>源文件\二叉搜索树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
