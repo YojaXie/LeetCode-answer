@@ -41,36 +41,16 @@ class Solution
 public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) 
 	{
-        bool AllFind = false;
         TreeNode* res = NULL;
-        pair<bool, bool>temp = presTraversal(root, p, q, res, AllFind);
+        presTraversal(root, p, q, res);
         return res;
 	}
 
-    pair<bool, bool> presTraversal(TreeNode* root, TreeNode* p, TreeNode* q, TreeNode*& res, bool& AllFind)
+    void presTraversal(TreeNode* root, TreeNode* p, TreeNode* q, TreeNode*& res)
     {
-        if (!root) return make_pair(false, false);
-        pair<bool, bool> LeftRes = { false,false };
-        pair<bool, bool> RightRes = { false,false };
-        pair<bool, bool> RootRes = { false,false };
-        pair<bool, bool> ReturnRes = { false,false };
-        if (root->val > p->val) LeftRes = presTraversal(root->left, p, q, res, AllFind);
-        if (root->val < p->val) RightRes = presTraversal(root->right, p, q, res, AllFind);
-        if (root->val > q->val) LeftRes = presTraversal(root->left, p, q, res, AllFind);
-        if (root->val < q->val) RightRes = presTraversal(root->right, p, q, res, AllFind);
-
-        if (root->val == p->val) RootRes.first = true;
-        if (root->val == q->val) RootRes.second = true;
-        if (!AllFind)
-        {
-            if (LeftRes.first || RightRes.first || RootRes.first) ReturnRes.first = true;
-            if (LeftRes.second || RightRes.second || RootRes.second) ReturnRes.second = true;
-            if (ReturnRes.first && ReturnRes.second)
-            {
-                res = root;
-                AllFind = true;
-            }
-        }
-        return ReturnRes;
+        if (!root) return;
+        if ((root->val - p->val) * (root->val - q->val) <= 0) res = root;
+        else if (root->val < p->val && root->val < q->val) presTraversal(root->right, p, q, res);
+        else presTraversal(root->left, p, q, res);
     }
 };
