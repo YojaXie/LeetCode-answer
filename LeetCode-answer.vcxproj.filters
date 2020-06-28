@@ -297,5 +297,8 @@
     <ClCompile Include="二叉搜索树\[0173]二叉搜索树迭代器.cpp">
       <Filter>源文件\二叉搜索树</Filter>
     </ClCompile>
+    <ClCompile Include="二叉搜索树\[0700]二叉搜索树中的搜索.cpp">
+      <Filter>源文件\二叉搜索树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
