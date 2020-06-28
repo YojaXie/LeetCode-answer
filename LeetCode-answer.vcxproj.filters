@@ -306,5 +306,8 @@
     <ClCompile Include="二叉搜索树\[0450]删除二叉搜索树中的节点.cpp">
       <Filter>源文件\二叉搜索树</Filter>
     </ClCompile>
+    <ClCompile Include="二叉搜索树\[0703]数据流中的第K大元素.cpp">
+      <Filter>源文件\二叉搜索树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
