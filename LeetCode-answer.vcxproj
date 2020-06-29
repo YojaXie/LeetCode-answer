@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="N叉树\[0589]N叉树的前序遍历.cpp" />
     <ClCompile Include="二分查找\[0004]寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="二分查找\[0033]搜索旋转排序数组.cpp" />
     <ClCompile Include="二分查找\[0034]在排序数组中查找元素的第一个和最后一个位置.cpp" />

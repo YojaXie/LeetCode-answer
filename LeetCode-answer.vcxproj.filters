@@ -34,6 +34,9 @@
     <Filter Include="源文件\二叉搜索树">
       <UniqueIdentifier>{5709ce61-5bb6-4698-b82a-71c4488bce2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\N叉树">
+      <UniqueIdentifier>{d1bab05e-6d2e-409a-89d6-7e3ad3b8a5e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -320,6 +323,9 @@
     </ClCompile>
     <ClCompile Include="二叉搜索树\[0108]将有序数组转换为二叉搜索树.cpp">
       <Filter>源文件\二叉搜索树</Filter>
+    </ClCompile>
+    <ClCompile Include="N叉树\[0589]N叉树的前序遍历.cpp">
+      <Filter>源文件\N叉树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
