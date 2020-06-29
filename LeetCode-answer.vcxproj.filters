@@ -345,5 +345,8 @@
     <ClCompile Include="前缀树\[0677]键值映射.cpp">
       <Filter>源文件\前缀树</Filter>
     </ClCompile>
+    <ClCompile Include="前缀树\[0648]单词替换.cpp">
+      <Filter>源文件\前缀树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
