@@ -315,5 +315,8 @@
     <ClCompile Include="二叉搜索树\[0220]存在重复元素III.cpp">
       <Filter>源文件\二叉搜索树</Filter>
     </ClCompile>
+    <ClCompile Include="二叉搜索树\[0110]平衡二叉树.cpp">
+      <Filter>源文件\二叉搜索树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
