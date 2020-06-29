@@ -37,6 +37,9 @@
     <Filter Include="源文件\N叉树">
       <UniqueIdentifier>{d1bab05e-6d2e-409a-89d6-7e3ad3b8a5e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\前缀树">
+      <UniqueIdentifier>{a6856397-40bd-4f13-b9fa-1f30df6c16c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -335,6 +338,9 @@
     </ClCompile>
     <ClCompile Include="N叉树\[0559]N叉树的最大深度.cpp">
       <Filter>源文件\N叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="前缀树\[0208]实现Trie (前缀树).cpp">
+      <Filter>源文件\前缀树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
