@@ -318,5 +318,8 @@
     <ClCompile Include="二叉搜索树\[0110]平衡二叉树.cpp">
       <Filter>源文件\二叉搜索树</Filter>
     </ClCompile>
+    <ClCompile Include="二叉搜索树\[0108]将有序数组转换为二叉搜索树.cpp">
+      <Filter>源文件\二叉搜索树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
