@@ -59,6 +59,7 @@
     <ClCompile Include="二叉树\[0145]二叉树的后序遍历.cpp" />
     <ClCompile Include="二叉树\[0236]二叉树的最近公共祖先.cpp" />
     <ClCompile Include="前缀树\[0208]实现Trie (前缀树).cpp" />
+    <ClCompile Include="前缀树\[0211]添加与搜索单词.cpp" />
     <ClCompile Include="前缀树\[0648]单词替换.cpp" />
     <ClCompile Include="前缀树\[0677]键值映射.cpp" />
     <ClCompile Include="数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp" />

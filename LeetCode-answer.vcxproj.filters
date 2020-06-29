@@ -348,5 +348,8 @@
     <ClCompile Include="前缀树\[0648]单词替换.cpp">
       <Filter>源文件\前缀树</Filter>
     </ClCompile>
+    <ClCompile Include="前缀树\[0211]添加与搜索单词.cpp">
+      <Filter>源文件\前缀树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
