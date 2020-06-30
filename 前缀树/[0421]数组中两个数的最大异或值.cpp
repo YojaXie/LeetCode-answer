@@ -63,15 +63,37 @@ public:
 			}
 			root->insert(buffer);
 		}
-
-
+		int MaxNum = -1;
+		TopDown(root, root, 0, MaxNum);
+		return MaxNum;
 	}
 
-	void TopDown(Trie* RootLeft, Trie* RootRight,int CurrentNum, int step, int& MaxNum)
+	void TopDown(Trie* RootLeft, Trie* RootRight,int CurrentNum, int& MaxNum)
 	{
+		CurrentNum = (RootLeft->val ^ RootRight->val) + (CurrentNum << 1);
 		if (RootLeft->children.empty())
 		{
-			CurrentNum += (RootLeft->val ^ RootLeft->val)
+			MaxNum = max(MaxNum, CurrentNum);
+			return;
+		}
+		if (RootLeft->children.size() == 1 && RootRight->children.size() == 1)
+			TopDown((*RootLeft->children.begin()).second, (*RootRight->children.begin()).second, CurrentNum, MaxNum);
+		else if (RootLeft->children.size() == 1 && RootRight->children.size() == 2)
+		{
+			int LeftChildrenVakl = (*RootLeft->children.begin()).second->val;
+			TopDown((*RootLeft->children.begin()).second, RootRight->children[1 - LeftChildrenVakl], CurrentNum, MaxNum);
+		}
+		else if (RootLeft->children.size() == 2 && RootRight->children.size() == 1)
+		{
+			int RightChildrenVakl = (*RootRight->children.begin()).second->val;
+			TopDown(RootLeft->children[1 - RightChildrenVakl], (*RootRight->children.begin()).second, CurrentNum, MaxNum);
+		}
+		else
+		{
+			for (pair<int, Trie*> node : RootLeft->children)
+			{
+				TopDown(node.second, RootRight->children[1 - node.first], CurrentNum, MaxNum);
+			}
 		}
 	}
 };
