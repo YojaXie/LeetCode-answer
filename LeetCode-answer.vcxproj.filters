@@ -366,5 +366,8 @@
     <ClCompile Include="哈希表\[0705]设计哈希集合.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0706]设计哈希映射.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

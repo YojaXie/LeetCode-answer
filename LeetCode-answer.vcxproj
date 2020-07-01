@@ -66,6 +66,7 @@
     <ClCompile Include="前缀树\[0648]单词替换.cpp" />
     <ClCompile Include="前缀树\[0677]键值映射.cpp" />
     <ClCompile Include="哈希表\[0705]设计哈希集合.cpp" />
+    <ClCompile Include="哈希表\[0706]设计哈希映射.cpp" />
     <ClCompile Include="数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集II.cpp" />
