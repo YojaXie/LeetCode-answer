@@ -375,5 +375,8 @@
     <ClCompile Include="哈希表\[0136]只出现一次的数字.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0202]快乐数.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
