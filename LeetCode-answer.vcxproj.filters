@@ -40,6 +40,9 @@
     <Filter Include="源文件\前缀树">
       <UniqueIdentifier>{a6856397-40bd-4f13-b9fa-1f30df6c16c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\哈希表">
+      <UniqueIdentifier>{d8f941d7-5e2e-4b85-b385-ddbef11e2a38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -359,6 +362,9 @@
     </ClCompile>
     <ClCompile Include="前缀树\[0336]回文对.cpp">
       <Filter>源文件\前缀树</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表\[0705]设计哈希集合.cpp">
+      <Filter>源文件\哈希表</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
