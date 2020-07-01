@@ -381,5 +381,8 @@
     <ClCompile Include="哈希表\[0001]两数之和.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0205]同构字符串.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
