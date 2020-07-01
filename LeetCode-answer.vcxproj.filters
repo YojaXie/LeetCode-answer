@@ -390,5 +390,8 @@
     <ClCompile Include="哈希表\[0387]字符串中的第一个唯一字符.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0219]存在重复元素II.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
