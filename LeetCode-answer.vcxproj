@@ -69,6 +69,7 @@
     <ClCompile Include="哈希表\[0136]只出现一次的数字.cpp" />
     <ClCompile Include="哈希表\[0202]快乐数.cpp" />
     <ClCompile Include="哈希表\[0217]存在重复元素.cpp" />
+    <ClCompile Include="哈希表\[0599]两个列表的最小索引总和.cpp" />
     <ClCompile Include="哈希表\[0705]设计哈希集合.cpp" />
     <ClCompile Include="哈希表\[0706]设计哈希映射.cpp" />
     <ClCompile Include="哈希表\[0205]同构字符串.cpp" />

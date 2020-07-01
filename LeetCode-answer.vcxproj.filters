@@ -384,5 +384,8 @@
     <ClCompile Include="哈希表\[0205]同构字符串.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0599]两个列表的最小索引总和.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
