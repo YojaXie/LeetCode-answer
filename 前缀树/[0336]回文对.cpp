@@ -65,28 +65,6 @@ public:
 		{
 			Trie* root = head;
 			string temp = words[j];
-			//if (temp.empty())
-			//{
-			//	for (int i = 0; i < words.size(); i++)
-			//	{
-			//		if (i == j) continue;
-			//		string RemainString = words[i];
-			//		string ReverseRemainString = RemainString;
-			//		reverse(ReverseRemainString.begin(), ReverseRemainString.end());
-			//		if (RemainString == ReverseRemainString)
-			//		{
-			//			vector<int> pos;
-			//			pos.push_back(i);
-			//			pos.push_back(j);
-			//			res.push_back(pos);
-			//			vector<int> pos1;
-			//			pos1.push_back(j);
-			//			pos1.push_back(i);
-			//			res.push_back(pos1);
-			//		}
-			//	}
-			//	continue;
-			//}
 			reverse(temp.begin(), temp.end());
 			int k = 0;
 			for (; k < temp.size(); k++)
