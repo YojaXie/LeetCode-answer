@@ -66,6 +66,7 @@
     <ClCompile Include="前缀树\[0648]单词替换.cpp" />
     <ClCompile Include="前缀树\[0677]键值映射.cpp" />
     <ClCompile Include="哈希表\[0001]两数之和.cpp" />
+    <ClCompile Include="哈希表\[0049]字母异位词分组.cpp" />
     <ClCompile Include="哈希表\[0136]只出现一次的数字.cpp" />
     <ClCompile Include="哈希表\[0202]快乐数.cpp" />
     <ClCompile Include="哈希表\[0217]存在重复元素.cpp" />
