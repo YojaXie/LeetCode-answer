@@ -357,5 +357,8 @@
     <ClCompile Include="前缀树\[0212]单词搜索II.cpp">
       <Filter>源文件\前缀树</Filter>
     </ClCompile>
+    <ClCompile Include="前缀树\[0336]回文对.cpp">
+      <Filter>源文件\前缀树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

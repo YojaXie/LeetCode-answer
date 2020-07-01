@@ -57,12 +57,36 @@ public:
 	vector<vector<int>> palindromePairs(vector<string>& words) 
 	{
 		vector<vector<int>> res;
-		Trie* root = new Trie();
+		if (words.empty()) return res;
+		Trie* head = new Trie();
+		Trie* root = head;
 		for (int i = 0; i < words.size(); i++) root->insert(words[i], i);
-
 		for (int j = 0; j < words.size(); j++)
 		{
+			Trie* root = head;
 			string temp = words[j];
+			//if (temp.empty())
+			//{
+			//	for (int i = 0; i < words.size(); i++)
+			//	{
+			//		if (i == j) continue;
+			//		string RemainString = words[i];
+			//		string ReverseRemainString = RemainString;
+			//		reverse(ReverseRemainString.begin(), ReverseRemainString.end());
+			//		if (RemainString == ReverseRemainString)
+			//		{
+			//			vector<int> pos;
+			//			pos.push_back(i);
+			//			pos.push_back(j);
+			//			res.push_back(pos);
+			//			vector<int> pos1;
+			//			pos1.push_back(j);
+			//			pos1.push_back(i);
+			//			res.push_back(pos1);
+			//		}
+			//	}
+			//	continue;
+			//}
 			reverse(temp.begin(), temp.end());
 			int k = 0;
 			for (; k < temp.size(); k++)
@@ -72,10 +96,11 @@ public:
 					if (root->IsWord.first && root->IsWord.second != j)
 					{
 						string RemainString;
-						while (k < temp.size())
+						int ki = k;
+						while (ki < temp.size())
 						{
-							RemainString.push_back(temp[k]);
-							k++;
+							RemainString.push_back(temp[ki]);
+							ki++;
 						}
 						string ReverseRemainString = RemainString;
 						reverse(ReverseRemainString.begin(), ReverseRemainString.end());
@@ -89,15 +114,14 @@ public:
 					}
 					break;
 				}
-				root = root->children[temp[k]];
 				if (root->IsWord.first && root->IsWord.second !=j)
 				{
 					string RemainString;
-					k = k + 1;
-					while (k  < temp.size())
+					int ki = k;
+					while (ki  < temp.size())
 					{
-						RemainString.push_back(temp[k]);
-						k++;
+						RemainString.push_back(temp[ki]);
+						ki++;
 					}
 					string ReverseRemainString = RemainString;
 					reverse(ReverseRemainString.begin(), ReverseRemainString.end());
@@ -109,6 +133,17 @@ public:
 						res.push_back(pos);
 					}
 				}
+				root = root->children[temp[k]];
+			}
+			if (k == temp.size())
+			{
+				if (root->IsWord.first && root->IsWord.second != j)
+				{
+					vector<int> pos;
+					pos.push_back(root->IsWord.second);
+					pos.push_back(j);
+					res.push_back(pos);
+				}
 			}
 			if (!root->children.empty() && k==temp.size())
 			{
@@ -119,21 +154,9 @@ public:
 	}
 	void TopDown(Trie* root,string CurrentString, vector<vector<int>>& res,int j)
 	{
-		if (!CurrentString.empty() && root->IsWord.first)
-		{
-			string ReverseRemainString = CurrentString;
-			reverse(ReverseRemainString.begin(), ReverseRemainString.end());
-			if (CurrentString == ReverseRemainString)
-			{
-				vector<int> pos;
-				pos.push_back(root->IsWord.second);
-				pos.push_back(j);
-				res.push_back(pos);
-			}
-		}
 		if (root->children.empty())
 		{
-			if (root->IsWord.first)
+			if (root->IsWord.first && root->IsWord.second != j)
 			{
 				string ReverseRemainString = CurrentString;
 				reverse(ReverseRemainString.begin(), ReverseRemainString.end());
@@ -147,10 +170,23 @@ public:
 			}
 			return;
 		}
+		if (!CurrentString.empty() && root->IsWord.first && root->IsWord.second != j)
+		{
+			string ReverseRemainString = CurrentString;
+			reverse(ReverseRemainString.begin(), ReverseRemainString.end());
+			if (CurrentString == ReverseRemainString)
+			{
+				vector<int> pos;
+				pos.push_back(root->IsWord.second);
+				pos.push_back(j);
+				res.push_back(pos);
+			}
+		}
 		for (pair<char, Trie*> node : root->children)
 		{
 			CurrentString.push_back(node.first);
 			TopDown(node.second, CurrentString, res, j);
+			CurrentString.pop_back();
 		}
 	}
 };
