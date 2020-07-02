@@ -411,5 +411,8 @@
     <ClCompile Include="哈希表\[0454]四数相加II.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0347]前K个高频元素.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
