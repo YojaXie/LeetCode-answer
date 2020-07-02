@@ -408,5 +408,8 @@
     <ClCompile Include="哈希表\[0003无重复字符的最长子串.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0454]四数相加II.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
