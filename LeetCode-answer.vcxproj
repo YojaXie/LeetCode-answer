@@ -66,6 +66,7 @@
     <ClCompile Include="前缀树\[0648]单词替换.cpp" />
     <ClCompile Include="前缀树\[0677]键值映射.cpp" />
     <ClCompile Include="哈希表\[0001]两数之和.cpp" />
+    <ClCompile Include="哈希表\[0003无重复字符的最长子串.cpp" />
     <ClCompile Include="哈希表\[0036]有效的数独.cpp" />
     <ClCompile Include="哈希表\[0049]字母异位词分组.cpp" />
     <ClCompile Include="哈希表\[0136]只出现一次的数字.cpp" />
@@ -78,6 +79,7 @@
     <ClCompile Include="哈希表\[0705]设计哈希集合.cpp" />
     <ClCompile Include="哈希表\[0706]设计哈希映射.cpp" />
     <ClCompile Include="哈希表\[0205]同构字符串.cpp" />
+    <ClCompile Include="哈希表\[0771]宝石与石头.cpp" />
     <ClCompile Include="数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集II.cpp" />
