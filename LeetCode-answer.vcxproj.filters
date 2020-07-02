@@ -43,6 +43,9 @@
     <Filter Include="源文件\哈希表">
       <UniqueIdentifier>{d8f941d7-5e2e-4b85-b385-ddbef11e2a38}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\递归">
+      <UniqueIdentifier>{2cfa38d3-b794-463d-a112-25febc96f381}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -416,6 +419,9 @@
     </ClCompile>
     <ClCompile Include="哈希表\[0380]常数时间插入、删除和获取随机元素.cpp">
       <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="递归\[0024]两两交换链表中的节点.cpp">
+      <Filter>源文件\递归</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
