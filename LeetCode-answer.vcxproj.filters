@@ -399,5 +399,8 @@
     <ClCompile Include="哈希表\[0036]有效的数独.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0652]寻找重复的子树.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

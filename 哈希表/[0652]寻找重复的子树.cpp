@@ -29,7 +29,7 @@ public:
     vector<TreeNode*> findDuplicateSubtrees(TreeNode* root) 
     {
         vector<TreeNode*> res;
-        map<vector<int64_t>, TreeNode*> buffer;
+        map<vector<int64_t>, bool> buffer;
         GetCurrentVal(root, buffer, res);
         return res;
     }
@@ -40,19 +40,25 @@ public:
             NodeVal.push_back(INT64_MIN);
             return;
         }
+		NodeVal.push_back(root->val);
         inOrder(root->left, NodeVal);
-        NodeVal.push_back(root->val);
         inOrder(root->right, NodeVal);
     }
-    void GetCurrentVal(TreeNode* root, map<vector<int64_t>, TreeNode*>& buffer, vector<TreeNode*>& res)
+    void GetCurrentVal(TreeNode* root, map<vector<int64_t>, bool>& buffer, vector<TreeNode*>& res)
     {
         if (!root) return;
         vector<int64_t> NodeVal;
         inOrder(root, NodeVal);
-        if (buffer.count(NodeVal) > 0)
-            res.push_back(root);
+		if (buffer.count(NodeVal) > 0)
+		{
+			if (!buffer[NodeVal])
+			{
+				res.push_back(root);
+				buffer[NodeVal] = true;
+			}
+		}
         else
-            buffer[NodeVal] = root;
+            buffer[NodeVal] = false;
         GetCurrentVal(root->left, buffer, res);
         GetCurrentVal(root->right, buffer, res);
     }
