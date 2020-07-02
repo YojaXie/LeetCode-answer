@@ -414,5 +414,8 @@
     <ClCompile Include="哈希表\[0347]前K个高频元素.cpp">
       <Filter>源文件\哈希表</Filter>
     </ClCompile>
+    <ClCompile Include="哈希表\[0380]常数时间插入、删除和获取随机元素.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -74,6 +74,7 @@
     <ClCompile Include="哈希表\[0217]存在重复元素.cpp" />
     <ClCompile Include="哈希表\[0219]存在重复元素II.cpp" />
     <ClCompile Include="哈希表\[0347]前K个高频元素.cpp" />
+    <ClCompile Include="哈希表\[0380]常数时间插入、删除和获取随机元素.cpp" />
     <ClCompile Include="哈希表\[0387]字符串中的第一个唯一字符.cpp" />
     <ClCompile Include="哈希表\[0454]四数相加II.cpp" />
     <ClCompile Include="哈希表\[0599]两个列表的最小索引总和.cpp" />
