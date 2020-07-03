@@ -423,5 +423,8 @@
     <ClCompile Include="递归\[0024]两两交换链表中的节点.cpp">
       <Filter>源文件\递归</Filter>
     </ClCompile>
+    <ClCompile Include="递归\[0509]斐波那契数.cpp">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
