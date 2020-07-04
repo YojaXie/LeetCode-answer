@@ -429,5 +429,8 @@
     <ClCompile Include="递归\[0779]第K个语法符号.cpp">
       <Filter>源文件\递归</Filter>
     </ClCompile>
+    <ClCompile Include="递归\[0095]不同的二叉搜索树II.cpp">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
