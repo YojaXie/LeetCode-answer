@@ -426,5 +426,8 @@
     <ClCompile Include="递归\[0509]斐波那契数.cpp">
       <Filter>源文件\递归</Filter>
     </ClCompile>
+    <ClCompile Include="递归\[0779]第K个语法符号.cpp">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

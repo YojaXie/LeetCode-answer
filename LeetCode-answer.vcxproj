@@ -114,6 +114,7 @@
     <ClCompile Include="每日一题\爬楼梯.cpp" />
     <ClCompile Include="递归\[0024]两两交换链表中的节点.cpp" />
     <ClCompile Include="递归\[0509]斐波那契数.cpp" />
+    <ClCompile Include="递归\[0779]第K个语法符号.cpp" />
     <ClCompile Include="链表\两数相加.cpp" />
     <ClCompile Include="链表\删除链表的倒数第N个节点.cpp" />
     <ClCompile Include="链表\反转链表.cpp" />
