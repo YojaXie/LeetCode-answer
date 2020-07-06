@@ -47,7 +47,11 @@
       <UniqueIdentifier>{2cfa38d3-b794-463d-a112-25febc96f381}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\初级算法">
+<<<<<<< HEAD
+      <UniqueIdentifier>{4fd44da3-2dc0-48e6-889b-3ac5c3d9fb57}</UniqueIdentifier>
+=======
       <UniqueIdentifier>{d1abe77a-eed7-44a1-b799-86dd804df869}</UniqueIdentifier>
+>>>>>>> f6d272a5c0e41578f6f8bc0e0efa2e56f0afcc0d
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -432,6 +436,17 @@
     <ClCompile Include="递归\[0779]第K个语法符号.cpp">
       <Filter>源文件\递归</Filter>
     </ClCompile>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <ClCompile Include="递归\[0095]不同的二叉搜索树II.cpp">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="初级算法\[0122]买卖股票的最佳时机II.cpp">
+      <Filter>源文件\初级算法</Filter>
+    </ClCompile>
+=======
+>>>>>>> parent of f1b566c... 添加一题
+=======
     <ClCompile Include="递归\[0095]不同的二叉搜索树II.cpp">
       <Filter>源文件\递归</Filter>
     </ClCompile>
@@ -447,5 +462,6 @@
     <ClCompile Include="初级算法\[0242]有效的字母异位词.cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
+>>>>>>> f6d272a5c0e41578f6f8bc0e0efa2e56f0afcc0d
   </ItemGroup>
 </Project>
