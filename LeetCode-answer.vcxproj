@@ -58,6 +58,7 @@
     <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp" />
     <ClCompile Include="二叉树\[0145]二叉树的后序遍历.cpp" />
     <ClCompile Include="二叉树\[0236]二叉树的最近公共祖先.cpp" />
+    <ClCompile Include="初级算法\[0007]整数反转.cpp" />
     <ClCompile Include="初级算法\[0066]加一.cpp" />
     <ClCompile Include="初级算法\[0189]旋转数组.cpp" />
     <ClCompile Include="前缀树\[0208]实现Trie (前缀树).cpp" />
