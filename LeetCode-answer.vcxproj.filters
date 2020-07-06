@@ -438,5 +438,8 @@
     <ClCompile Include="初级算法\[0189]旋转数组.cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
+    <ClCompile Include="初级算法\[0066]加一.cpp">
+      <Filter>源文件\初级算法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
