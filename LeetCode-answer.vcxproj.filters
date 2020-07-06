@@ -46,6 +46,9 @@
     <Filter Include="源文件\递归">
       <UniqueIdentifier>{2cfa38d3-b794-463d-a112-25febc96f381}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\初级算法">
+      <UniqueIdentifier>{d1abe77a-eed7-44a1-b799-86dd804df869}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -431,6 +434,9 @@
     </ClCompile>
     <ClCompile Include="递归\[0095]不同的二叉搜索树II.cpp">
       <Filter>源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="初级算法\[0189]旋转数组.cpp">
+      <Filter>源文件\初级算法</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
