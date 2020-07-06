@@ -444,5 +444,8 @@
     <ClCompile Include="初级算法\[0007]整数反转.cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
+    <ClCompile Include="初级算法\[0242]有效的字母异位词.cpp">
+      <Filter>源文件\初级算法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
