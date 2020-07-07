@@ -450,7 +450,7 @@
     <ClCompile Include="初级算法\[0242]有效的字母异位词.cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
-    <ClCompile Include="初级算法\[0008]字符串转换整数 %28atoi%29.cpp">
+    <ClCompile Include="初级算法\[0008]字符串转换整数 (atoi).cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
   </ItemGroup>
