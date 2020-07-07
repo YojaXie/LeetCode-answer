@@ -444,5 +444,11 @@
     <ClCompile Include="初级算法\[0007]整数反转.cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
+    <ClCompile Include="初级算法\[0122]买卖股票的最佳时机II.cpp">
+      <Filter>源文件\初级算法</Filter>
+    </ClCompile>
+    <ClCompile Include="初级算法\字符串转换整数 (atoi).cpp">
+      <Filter>源文件\初级算法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
