@@ -456,5 +456,8 @@
     <ClCompile Include="初级算法\[0028]实现strStr().cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
+    <ClCompile Include="初级算法\[0038]外观数列.cpp">
+      <Filter>源文件\初级算法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
