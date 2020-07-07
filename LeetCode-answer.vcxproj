@@ -63,7 +63,7 @@
     <ClCompile Include="初级算法\[0122]买卖股票的最佳时机II.cpp" />
     <ClCompile Include="初级算法\[0189]旋转数组.cpp" />
     <ClCompile Include="初级算法\[0242]有效的字母异位词.cpp" />
-    <ClCompile Include="初级算法\字符串转换整数 (atoi).cpp" />
+    <ClCompile Include="初级算法\[0008]字符串转换整数 %28atoi%29.cpp" />
     <ClCompile Include="前缀树\[0208]实现Trie (前缀树).cpp" />
     <ClCompile Include="前缀树\[0211]添加与搜索单词.cpp" />
     <ClCompile Include="前缀树\[0212]单词搜索II.cpp" />
