@@ -453,5 +453,8 @@
     <ClCompile Include="初级算法\[0008]字符串转换整数 (atoi).cpp">
       <Filter>源文件\初级算法</Filter>
     </ClCompile>
+    <ClCompile Include="初级算法\[0028]实现strStr().cpp">
+      <Filter>源文件\初级算法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

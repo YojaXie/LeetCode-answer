@@ -109,7 +109,7 @@ public:
 			if (sentence[i] == ' ')
 			{
 				res.append(root->swapSuccessor(word));
-				res.append(' ');
+				res.append(" ");
 				word.clear();
 			}
 			else 
