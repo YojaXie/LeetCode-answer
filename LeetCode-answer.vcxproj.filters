@@ -52,6 +52,9 @@
     <Filter Include="源文件\动态规划">
       <UniqueIdentifier>{6f41a705-cc91-4944-b33a-54c3d50a6ac1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\回溯算法">
+      <UniqueIdentifier>{771d743b-6827-4b23-a3db-6ebbfa64d4b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -470,6 +473,9 @@
     </ClCompile>
     <ClCompile Include="动态规划\[0322]零钱兑换.cpp">
       <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="回溯算法\[0046]全排列.cpp">
+      <Filter>源文件\回溯算法</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
