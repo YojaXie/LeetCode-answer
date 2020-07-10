@@ -49,6 +49,9 @@
     <Filter Include="源文件\初级算法">
       <UniqueIdentifier>{d1abe77a-eed7-44a1-b799-86dd804df869}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\动态规划">
+      <UniqueIdentifier>{6f41a705-cc91-4944-b33a-54c3d50a6ac1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -464,6 +467,9 @@
     </ClCompile>
     <ClCompile Include="初级算法\[0088]合并两个有序数组.cpp">
       <Filter>源文件\初级算法</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划\[0322]零钱兑换.cpp">
+      <Filter>源文件\动态规划</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
