@@ -480,5 +480,8 @@
     <ClCompile Include="回溯算法\[0051]N皇后.cpp">
       <Filter>源文件\回溯算法</Filter>
     </ClCompile>
+    <ClCompile Include="动态规划\[0887]鸡蛋掉落.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
