@@ -483,5 +483,8 @@
     <ClCompile Include="动态规划\[0887]鸡蛋掉落.cpp">
       <Filter>源文件\动态规划</Filter>
     </ClCompile>
+    <ClCompile Include="动态规划\[0300]最长上升子序列.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
