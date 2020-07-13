@@ -495,5 +495,8 @@
     <ClCompile Include="动态规划\[0518]零钱兑换II.cpp">
       <Filter>源文件\动态规划</Filter>
     </ClCompile>
+    <ClCompile Include="动态规划\[1143]最长公共子序列.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
