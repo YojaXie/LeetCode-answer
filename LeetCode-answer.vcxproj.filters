@@ -501,5 +501,8 @@
     <ClCompile Include="动态规划\[0072]编辑距离.cpp">
       <Filter>源文件\动态规划</Filter>
     </ClCompile>
+    <ClCompile Include="动态规划\[0312]戳气球.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

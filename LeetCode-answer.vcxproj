@@ -78,6 +78,7 @@
     <ClCompile Include="动态规划\[0053]最大子序和.cpp" />
     <ClCompile Include="动态规划\[0072]编辑距离.cpp" />
     <ClCompile Include="动态规划\[0300]最长上升子序列.cpp" />
+    <ClCompile Include="动态规划\[0312]戳气球.cpp" />
     <ClCompile Include="动态规划\[0322]零钱兑换.cpp" />
     <ClCompile Include="动态规划\[0416]分割等和子集.cpp" />
     <ClCompile Include="动态规划\[0518]零钱兑换II.cpp" />
