@@ -81,6 +81,7 @@
     <ClCompile Include="动态规划\[0312]戳气球.cpp" />
     <ClCompile Include="动态规划\[0322]零钱兑换.cpp" />
     <ClCompile Include="动态规划\[0416]分割等和子集.cpp" />
+    <ClCompile Include="动态规划\[0516]最长回文子序列.cpp" />
     <ClCompile Include="动态规划\[0518]零钱兑换II.cpp" />
     <ClCompile Include="动态规划\[0887]鸡蛋掉落.cpp" />
     <ClCompile Include="动态规划\[1143]最长公共子序列.cpp" />

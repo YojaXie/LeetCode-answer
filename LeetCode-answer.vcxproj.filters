@@ -504,5 +504,8 @@
     <ClCompile Include="动态规划\[0312]戳气球.cpp">
       <Filter>源文件\动态规划</Filter>
     </ClCompile>
+    <ClCompile Include="动态规划\[0516]最长回文子序列.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
