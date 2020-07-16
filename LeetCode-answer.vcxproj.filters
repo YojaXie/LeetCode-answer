@@ -519,5 +519,8 @@
     <ClCompile Include="贪心算法\[0435]无重叠区间.cpp">
       <Filter>源文件\贪心算法</Filter>
     </ClCompile>
+    <ClCompile Include="贪心算法\[0452]用最少数量的箭引爆气球.cpp">
+      <Filter>源文件\贪心算法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
