@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
@@ -12,6 +8,10 @@
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="源文件\队列和栈">
       <UniqueIdentifier>{95634025-7515-49d5-a6e2-a5f9a7442778}</UniqueIdentifier>
@@ -54,6 +54,9 @@
     </Filter>
     <Filter Include="源文件\回溯算法">
       <UniqueIdentifier>{771d743b-6827-4b23-a3db-6ebbfa64d4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\贪心算法">
+      <UniqueIdentifier>{bf46e557-cc1e-4a3f-934f-f04aaf966502}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -512,6 +515,9 @@
     </ClCompile>
     <ClCompile Include="动态规划\[0010]正则表达式匹配.cpp">
       <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="贪心算法\[0435]无重叠区间.cpp">
+      <Filter>源文件\贪心算法</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
