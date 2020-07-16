@@ -75,6 +75,7 @@
     <ClCompile Include="前缀树\[0421]数组中两个数的最大异或值.cpp" />
     <ClCompile Include="前缀树\[0648]单词替换.cpp" />
     <ClCompile Include="前缀树\[0677]键值映射.cpp" />
+    <ClCompile Include="动态规划\[0010]正则表达式匹配.cpp" />
     <ClCompile Include="动态规划\[0053]最大子序和.cpp" />
     <ClCompile Include="动态规划\[0072]编辑距离.cpp" />
     <ClCompile Include="动态规划\[0300]最长上升子序列.cpp" />

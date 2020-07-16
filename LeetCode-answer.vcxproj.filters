@@ -510,5 +510,8 @@
     <ClCompile Include="动态规划\[0877]石子游戏.cpp">
       <Filter>源文件\动态规划</Filter>
     </ClCompile>
+    <ClCompile Include="动态规划\[0010]正则表达式匹配.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
