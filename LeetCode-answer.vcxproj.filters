@@ -58,6 +58,9 @@
     <Filter Include="源文件\贪心算法">
       <UniqueIdentifier>{bf46e557-cc1e-4a3f-934f-f04aaf966502}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\设计问题">
+      <UniqueIdentifier>{cd533ccc-ffc6-4483-9e70-02de7221f5bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -527,6 +530,9 @@
     </ClCompile>
     <ClCompile Include="动态规划\[0198]打家劫舍.cpp">
       <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="设计问题\[0384]打乱数组.cpp">
+      <Filter>源文件\设计问题</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
