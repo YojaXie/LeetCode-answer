@@ -546,5 +546,8 @@
     <ClCompile Include="数学\[0326]3的幂.cpp">
       <Filter>源文件\数学</Filter>
     </ClCompile>
+    <ClCompile Include="数学\[0013]罗马数字转整数.cpp">
+      <Filter>源文件\数学</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
