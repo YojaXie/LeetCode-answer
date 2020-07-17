@@ -79,6 +79,7 @@
     <ClCompile Include="动态规划\[0053]最大子序和.cpp" />
     <ClCompile Include="动态规划\[0072]编辑距离.cpp" />
     <ClCompile Include="动态规划\[0121]买卖股票的最佳时机.cpp" />
+    <ClCompile Include="动态规划\[0198]打家劫舍.cpp" />
     <ClCompile Include="动态规划\[0300]最长上升子序列.cpp" />
     <ClCompile Include="动态规划\[0312]戳气球.cpp" />
     <ClCompile Include="动态规划\[0322]零钱兑换.cpp" />
