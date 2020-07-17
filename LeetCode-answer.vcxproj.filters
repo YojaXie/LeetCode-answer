@@ -61,6 +61,9 @@
     <Filter Include="源文件\设计问题">
       <UniqueIdentifier>{cd533ccc-ffc6-4483-9e70-02de7221f5bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\数学">
+      <UniqueIdentifier>{edfba087-c300-4ecb-8e21-ab46b6040a69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -533,6 +536,9 @@
     </ClCompile>
     <ClCompile Include="设计问题\[0384]打乱数组.cpp">
       <Filter>源文件\设计问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学\[0412]Fizz Buzz.cpp">
+      <Filter>源文件\数学</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
