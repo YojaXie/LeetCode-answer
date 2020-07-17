@@ -114,6 +114,7 @@
     <ClCompile Include="数学\[0204]计数质数.cpp" />
     <ClCompile Include="数学\[0326]3的幂.cpp" />
     <ClCompile Include="数学\[0412]Fizz Buzz.cpp" />
+    <ClCompile Include="数学\[0461]汉明距离.cpp" />
     <ClCompile Include="数组和字符串\[0154]寻找旋转排序数组中的最小值II.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集.cpp" />
     <ClCompile Include="数组和字符串\两个数组的交集II.cpp" />
