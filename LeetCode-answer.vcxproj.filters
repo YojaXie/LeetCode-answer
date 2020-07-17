@@ -522,5 +522,8 @@
     <ClCompile Include="贪心算法\[0452]用最少数量的箭引爆气球.cpp">
       <Filter>源文件\贪心算法</Filter>
     </ClCompile>
+    <ClCompile Include="动态规划\[0121]买卖股票的最佳时机.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
