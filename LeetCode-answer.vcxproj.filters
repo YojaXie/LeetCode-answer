@@ -540,5 +540,8 @@
     <ClCompile Include="数学\[0412]Fizz Buzz.cpp">
       <Filter>源文件\数学</Filter>
     </ClCompile>
+    <ClCompile Include="数学\[0204]计数质数.cpp">
+      <Filter>源文件\数学</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
