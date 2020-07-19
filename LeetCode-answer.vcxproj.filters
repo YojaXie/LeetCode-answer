@@ -64,6 +64,9 @@
     <Filter Include="源文件\数学">
       <UniqueIdentifier>{edfba087-c300-4ecb-8e21-ab46b6040a69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\其他">
+      <UniqueIdentifier>{1213ab68-208c-4146-b27e-f306217c0190}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="队列和栈\设计循环队列.cpp">
@@ -549,11 +552,11 @@
     <ClCompile Include="数学\[0013]罗马数字转整数.cpp">
       <Filter>源文件\数学</Filter>
     </ClCompile>
-    <ClCompile Include="数学\[0191]位1的个数.cpp">
-      <Filter>源文件\数学</Filter>
+    <ClCompile Include="其他\[0191]位1的个数.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
-    <ClCompile Include="数学\[0461]汉明距离.cpp">
-      <Filter>源文件\数学</Filter>
+    <ClCompile Include="其他\[0461]汉明距离.cpp">
+      <Filter>源文件\其他</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
