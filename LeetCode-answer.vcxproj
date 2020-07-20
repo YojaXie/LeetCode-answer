@@ -58,7 +58,9 @@
     <ClCompile Include="二叉树\[0144]二叉树的前序遍历.cpp" />
     <ClCompile Include="二叉树\[0145]二叉树的后序遍历.cpp" />
     <ClCompile Include="二叉树\[0236]二叉树的最近公共祖先.cpp" />
+    <ClCompile Include="其他\[0190]颠倒二进制位.cpp" />
     <ClCompile Include="其他\[0191]位1的个数.cpp" />
+    <ClCompile Include="其他\[0268]缺失数字.cpp" />
     <ClCompile Include="其他\[0461]汉明距离.cpp" />
     <ClCompile Include="初级算法\[0007]整数反转.cpp" />
     <ClCompile Include="初级算法\[0008]字符串转换整数 (atoi).cpp" />

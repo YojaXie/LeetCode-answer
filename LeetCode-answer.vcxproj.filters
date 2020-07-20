@@ -558,5 +558,11 @@
     <ClCompile Include="其他\[0461]汉明距离.cpp">
       <Filter>源文件\其他</Filter>
     </ClCompile>
+    <ClCompile Include="其他\[0190]颠倒二进制位.cpp">
+      <Filter>源文件\其他</Filter>
+    </ClCompile>
+    <ClCompile Include="其他\[0268]缺失数字.cpp">
+      <Filter>源文件\其他</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
